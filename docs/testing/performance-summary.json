@@ -1,0 +1,303 @@
+{
+  "measurementNote": "Local production preview; Lighthouse simulated mobile. Gzip asset estimates use Node zlib default; not a production CDN benchmark.",
+  "before": {
+    "initialGraph": {
+      "files": [
+        {
+          "file": "assets/index-CzhQk3iF.js",
+          "bytes": 520511,
+          "gzipBytes": 143434
+        },
+        {
+          "file": "assets/index-DONV-n9i.css",
+          "bytes": 38465,
+          "gzipBytes": 8811
+        },
+        {
+          "file": "assets/primitives-rT41Xz0X.js",
+          "bytes": 10272,
+          "gzipBytes": 3944
+        },
+        {
+          "file": "assets/useQuery-Cwod3SRR.js",
+          "bytes": 22725,
+          "gzipBytes": 7502
+        },
+        {
+          "file": "assets/useMutation-CE1fTNqi.js",
+          "bytes": 5698,
+          "gzipBytes": 1810
+        },
+        {
+          "file": "assets/errors-DCOVILHV.js",
+          "bytes": 1469,
+          "gzipBytes": 727
+        },
+        {
+          "file": "assets/useAuth-DGSm4Woy.js",
+          "bytes": 586,
+          "gzipBytes": 345
+        }
+      ],
+      "totalBytes": 599726,
+      "totalGzipBytes": 166573
+    },
+    "homeBeforeLayoutFix": {
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-24T15:07:33.710Z",
+      "requestedUrl": "http://127.0.0.1:4175/",
+      "finalDisplayedUrl": "http://127.0.0.1:4175/",
+      "performanceScore": 0.72,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 2108.596875,
+          "display": "2.1 s",
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2483.31625,
+          "display": "2.5 s",
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 87.7193749999999,
+          "display": "90 ms",
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0.7472071158088452,
+          "display": "0.747",
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 2108.596875,
+          "display": "2.1 s",
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 183240,
+          "display": "Total size was 179 KiB",
+          "unit": "byte"
+        }
+      },
+      "unusedJavascriptEstimate": "Est savings of 45 KiB",
+      "runtimeError": null
+    }
+  },
+  "after": {
+    "initialGraph": {
+      "files": [
+        {
+          "file": "assets/index-BgQASdy_.js",
+          "bytes": 208480,
+          "gzipBytes": 47104
+        },
+        {
+          "file": "assets/index-DhfyVOUU.css",
+          "bytes": 38527,
+          "gzipBytes": 8829
+        },
+        {
+          "file": "assets/rolldown-runtime-WkwZ5CU-.js",
+          "bytes": 599,
+          "gzipBytes": 368
+        },
+        {
+          "file": "assets/framework-CQzqIUhG.js",
+          "bytes": 313938,
+          "gzipBytes": 97815
+        },
+        {
+          "file": "assets/query-Cosa_CC1.js",
+          "bytes": 35392,
+          "gzipBytes": 10314
+        },
+        {
+          "file": "assets/errors-DCOVILHV.js",
+          "bytes": 1469,
+          "gzipBytes": 727
+        },
+        {
+          "file": "assets/useAuth-Bwa0waSb.js",
+          "bytes": 626,
+          "gzipBytes": 365
+        }
+      ],
+      "totalBytes": 599031,
+      "totalGzipBytes": 165522
+    },
+    "largestJavaScriptChunk": {
+      "file": "assets/framework-CQzqIUhG.js",
+      "bytes": 313938
+    },
+    "home": {
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-24T15:10:24.752Z",
+      "requestedUrl": "http://127.0.0.1:4175/",
+      "finalDisplayedUrl": "http://127.0.0.1:4175/",
+      "performanceScore": 0.94,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 2123.72975,
+          "display": "2.1 s",
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2513.0757,
+          "display": "2.5 s",
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 143.5,
+          "display": "140 ms",
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0",
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 2123.72975,
+          "display": "2.1 s",
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 183256,
+          "display": "Total size was 179 KiB",
+          "unit": "byte"
+        }
+      },
+      "unusedJavascriptEstimate": "Est savings of 45 KiB",
+      "runtimeError": null
+    },
+    "product": {
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-24T15:10:58.805Z",
+      "requestedUrl": "http://127.0.0.1:4175/product/panels-550-1",
+      "finalDisplayedUrl": "http://127.0.0.1:4175/product/panels-550-1",
+      "performanceScore": 0.94,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 2245.254,
+          "display": "2.2 s",
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2478.9048000000003,
+          "display": "2.5 s",
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 149.00000000000023,
+          "display": "150 ms",
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0",
+          "unit": "unitless"
+        },
+        "speed-index": {
+          "value": 2245.254,
+          "display": "2.2 s",
+          "unit": "millisecond"
+        },
+        "total-byte-weight": {
+          "value": 177521,
+          "display": "Total size was 173 KiB",
+          "unit": "byte"
+        }
+      },
+      "unusedJavascriptEstimate": "Est savings of 45 KiB",
+      "runtimeError": null
+    },
+    "allAccountAuthCheckoutOrderRoutesDynamic": true
+  },
+  "images": [
+    {
+      "file": "public/images/accessories.svg",
+      "bytes": 350
+    },
+    {
+      "file": "public/images/batteries.svg",
+      "bytes": 633
+    },
+    {
+      "file": "public/images/cables.svg",
+      "bytes": 813
+    },
+    {
+      "file": "public/images/controllers.svg",
+      "bytes": 633
+    },
+    {
+      "file": "public/images/inverters.svg",
+      "bytes": 633
+    },
+    {
+      "file": "public/images/panels.svg",
+      "bytes": 1283
+    },
+    {
+      "file": "public/images/protection.svg",
+      "bytes": 633
+    },
+    {
+      "file": "public/images/switches.svg",
+      "bytes": 633
+    }
+  ],
+  "totalImageBytes": 5611
+}

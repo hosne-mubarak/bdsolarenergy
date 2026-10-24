@@ -4,10 +4,13 @@ test('filters and sorting persist through reload and browser history', async ({ 
   await page.goto('/products?page=2');
   await expect(page.getByRole('heading', { level: 1, name: 'All products' })).toBeVisible();
   await expect(page.getByText('Page 2 of 4')).toBeVisible();
-  await page.getByRole('checkbox', { name: 'Sunward Demo' }).check();
+  const brand = page.getByRole('checkbox', { name: 'Sunward Demo' });
+  await brand.click();
+  await expect(brand).toBeChecked();
   await expect(page.getByText('16 products')).toBeVisible();
   await expect(page).toHaveURL(/brand=brand-1/);
   await page.getByLabel('Sort products').selectOption('price-asc');
+  await expect(page).toHaveURL(/sort=price-asc/);
   await page.reload();
   await expect(page.getByRole('checkbox', { name: 'Sunward Demo' })).toBeChecked();
   await expect(page.getByLabel('Sort products')).toHaveValue('price-asc');

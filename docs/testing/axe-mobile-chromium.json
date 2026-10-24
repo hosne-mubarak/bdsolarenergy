@@ -5,8 +5,8 @@
     "serious": 0,
     "critical": 0,
     "other": [],
-    "incomplete": ["aria-prohibited-attr", "color-contrast"],
-    "passedRules": 30
+    "incomplete": ["color-contrast"],
+    "passedRules": 31
   },
   {
     "label": "cart",

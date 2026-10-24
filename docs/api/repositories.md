@@ -1,23 +1,38 @@
 # Repository contracts
 
-Feature hooks depend on asynchronous contracts in `src/services/contracts`, not JSON imports or network calls. The domain entity types come from `src/types`; Zod schemas define runtime boundary validation. Reads accept cancellation options. A normalized error code separates validation/not-found/conflict/auth/availability failures from transport-specific details.
+Feature hooks consume asynchronous interfaces in [contracts](../../src/services/contracts/index.ts). Entity types come from [types](../../src/types/index.ts) and runtime validation from [schemas](../../src/schemas/index.ts). Components do not import fixtures, call HTTP or read browser storage. The [architectural lint suite](../../tests/unit/architecture.test.ts) checks those boundaries, including application entry files.
 
-Catalogue and content are public reads. Cart/wishlist resolve the current guest/account owner internally. Customer and order operations resolve the current session and enforce demo ownership rather than trusting a caller-supplied user ID. Login/logout orchestration must clear account-scoped caches and merge guest data through repository operations, not duplicate component effects.
+## Implemented interfaces
 
-## Selection and injection
+| Interface                   | Current operations and result boundary                                                                                                                                                                  |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CatalogueRepository`       | `listProducts`, `getProduct`, `getProductById`, `getVariant`, `listCategories`, `listBrands`, `listImages`, `getReviews`; validated catalogue entities and `Page<ProductSummary>`                       |
+| `ContentRepository`         | `getAccountNavigation`, `getSiteSettings`, `getNavigation`, `getBanners`, `getPage`, `getCheckoutConfiguration`, `getCoupons`, `getDefaultPreferences`; fixture-defined public configuration/content    |
+| `AuthRepository`            | `getDemoAccess`, `getSession`, `login`, `register`, `logout`, `requestReset`, `resetDemoPassword`, `getVerificationStatus`, `changeDemoPassword`; explicit browser-demo identity and recovery semantics |
+| `CustomerRepository`        | `getProfile`, `updateProfile`, `listAddresses`, `getAddress`, `saveAddress`, `deleteAddress`, `getPreferences`, `updatePreferences`; current-session-owned customer data                                |
+| `CartRepository`            | `getCart`, `add`, `setQuantity`, `removeLine`, `clear`, `mergeGuestCart`; current guest/account cart and merge notices                                                                                  |
+| `WishlistRepository`        | `list`, `toggle`, `mergeGuestWishlist`; current guest/account product IDs                                                                                                                               |
+| `OrderRepository`           | `quote`, `placeOrder`, `listOrders`, `getOrder`, `getTracking`; expiring review, immutable purchase snapshots and recorded demo events                                                                  |
+| `CheckoutAttemptRepository` | `getOrCreate(quoteId)`; retained, owner-scoped submission key for the reviewed checkout                                                                                                                 |
 
-The composition root validates `VITE_DATA_SOURCE` once. Only `json` is supported initially. Unknown modes fail explicitly; do not silently fall back to JSON when an API is unavailable. Factories defer adapter creation until configuration is validated. Inject clock and ID generation into services for deterministic coupon/session/order tests. Never accept a displayed total as an authoritative quote.
+`Repositories` groups the seven main repository interfaces. `CheckoutAttemptRepository` is a separate auxiliary contract, composed as `ShoppingServices.checkoutAttempts`. The shopping service bundle also contains the injected runtime, local/tab persistence bridges and namespace-reset action. These platform controls support the demo; they are not proposed backend account-deletion operations.
 
-The initial contract tests use a typed fake adapter to demonstrate substitution and exercise normalized error/selection/cancellation behavior. Concrete JSON adapters will run contract behavior tests as implemented. Authentication/payment/order methods must not return invented success while unimplemented.
+Catalogue/content are public reads. Cart and wishlist resolve ownership internally; customer/order operations require the current session. Callers never supply an authoritative account ID. Unknown and foreign address/order IDs share the same nondisclosing not-found behavior. Objects returned by JSON adapters are copies, so feature edits cannot mutate fixture or persisted state accidentally.
 
-## Proposed future DRF mapping
+Reads accept `ReadOptions.signal`; `quote` also accepts it. Cancellation remains an `AbortError`, not a repository availability failure. Mutation contracts have no abort parameter: cancelling a read or leaving a page does not establish whether a server mutation committed. `RepositoryError` exposes only the agreed code, safe message and optional field errors. Raw transport bodies, stack traces and credentials do not reach screens.
 
-Endpoints in the approved plan are proposals only. A future API adapter must map DTOs, pagination, query parameters, error shapes, cancellation, authentication headers/cookies and CSRF inside infrastructure. No page should inspect a DRF `results` field or read an access token. Domain amounts remain integer poisha even if a negotiated wire contract uses decimal strings.
+## Composition and behavior
 
-Backend integration must agree session security, CORS/CSRF, inventory transactions, idempotency and payment verification before enabling API mode. No frontend ownership check, fixture verifier or local reservation is a production security control. See the approved plan section 7 for the complete migration acceptance scope.
+`VITE_DATA_SOURCE` selects `json` by default. Unsupported modes, including `api`, fail explicitly before constructing a fallback adapter. `VITE_API_BASE_URL` is reserved, public and unused. No API transport or working DRF compatibility is claimed.
 
-## JSON read adapters (TASK-008)
+`createJsonReadRepositories(runtime, fixtureData?)` supplies catalogue/content with validated fixture relationships, filtering/search/sorting, derived ratings and injected-time banner availability. `createShoppingServices` composes auth/customer/cart/wishlist/order/attempt adapters with the same runtime and persistence. Tests inject deterministic clocks, identifiers and stores. Unsupported or failed operations never return invented success.
 
-`createJsonReadRepositories(runtime, fixtureData?)` provides catalogue/content contracts. The default loader validates every fixture and its relationships. Injected snapshots support deterministic tests. Reads honor abort signals before and after their asynchronous boundary and return copies rather than mutable imported records. Product summaries derive rating/count from reviews, and banner availability uses the injected clock.
+`RepositoryProvider` accepts a typed public repository bundle. The shopping provider composition can receive an explicitly supplied service bundle through `AppProviders`; it defaults to the JSON service factory. The [adapter replacement integration test](../../tests/integration/adapter-replacement.test.tsx) exercises feature-facing substitution at that seam. This demonstrates the frontend boundary, not an HTTP protocol or backend authorization guarantee.
 
-This foundation covers detail/relationship reads and basic paginated lists. Catalogue filter/search/sort semantics are added and tested in TASK-013–015 before those controls are presented; TASK-008 does not claim those shopping features complete. All customer/authentication/order mutations remain assigned to later tasks.
+Identity transitions use repository merge operations, then cancel/remove private shopping queries and refresh the session. Query keys include the current owner. Guest cart and wishlist merges are separate repeatable aggregate operations; a partial failure is reported and does not pretend they formed one transaction. Order placement has stronger local semantics: one revision-checked checkout-aggregate write records the snapshot, updates reservations and clears the cart. See [order placement](../domain/order-placement.md) for retry and concurrency limits.
+
+## Verification and future replacement
+
+- [Repository contracts](../../tests/contracts), [composed lifecycle](../../tests/integration/purchase-lifecycle.test.ts) and feature interactions cover success, ownership, cancellation, validation and persistence failures.
+- [Business-risk matrix](../testing/test-matrix.md) maps the required rules to actual test sources; [progress](../implementation-progress.md) records executed evidence.
+- [DRF migration handoff](migration.md) defines proposed endpoint/DTO mappings, security decisions, contract-evolution constraints and the backend acceptance harness. Real backend implementation and transport tests remain separate work.

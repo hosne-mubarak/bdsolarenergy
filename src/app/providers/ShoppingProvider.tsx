@@ -1,14 +1,21 @@
 import { useContext, useEffect, useState, useRef, type ReactNode } from 'react';
 import { useQueryClient } from '@tanstack/react-query';
-import { createShoppingServices } from '../../services/shopping';
+import { createShoppingServices, type ShoppingServices } from '../../services/shopping';
 import { RepositoryContext } from './repository-context';
 import { ToastContext } from './toast-context';
 import { ShoppingContext } from './shopping-context';
 
-export function ShoppingProvider({ children }: { children: ReactNode }) {
+export function ShoppingProvider({
+  children,
+  services: suppliedServices,
+}: {
+  children: ReactNode;
+  services?: ShoppingServices;
+}) {
   const repositories = useContext(RepositoryContext);
   if (!repositories) throw new Error('RepositoryProvider is required');
-  const [services] = useState(() => createShoppingServices(repositories));
+  // Composition is selected once per mount, just like the query client and public repositories.
+  const [services] = useState(() => suppliedServices ?? createShoppingServices(repositories));
   const client = useQueryClient();
   const toast = useContext(ToastContext);
   const noticeCount = useRef(0);

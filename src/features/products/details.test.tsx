@@ -5,11 +5,14 @@ import { describe, expect, it } from 'vitest';
 import { AppProviders } from '../../app/providers/AppProviders';
 import { createAppRoutes } from '../../app/router/routes';
 import { formatMoney } from '../../utils/currency';
+import { loadFixtureData } from '../../services/json/fixtures';
+import { createJsonReadRepositories } from '../../services/json/read-repositories';
+import type { PublicRepositories } from '../../services/public';
 
-function renderProduct(path = '/product/panels-550-1') {
+function renderProduct(path = '/product/panels-550-1', repositories?: PublicRepositories) {
   const router = createMemoryRouter(createAppRoutes(), { initialEntries: [path] });
   render(
-    <AppProviders>
+    <AppProviders repositories={repositories}>
       <RouterProvider router={router} />
     </AppProviders>,
   );
@@ -61,6 +64,33 @@ describe('product details and options', () => {
       expect(Number(image.getAttribute('width'))).toBeGreaterThan(0);
       expect(Number(image.getAttribute('height'))).toBeGreaterThan(0);
     }
+  });
+
+  it('displays a mixed-review average rounded once alongside its actual review count', async () => {
+    const data = loadFixtureData();
+    const original = data.fixtures.reviews.find(
+      (review) => review.productId === 'product-panels-1',
+    )!;
+    data.fixtures.reviews = [
+      ...data.fixtures.reviews.filter((review) => review.productId !== original.productId),
+      ...[2, 4, 5].map((rating, index) => ({
+        ...original,
+        id: `mixed-rating-${index}`,
+        rating,
+        title: `Mixed sample review ${index + 1}`,
+      })),
+    ];
+    const repositories = createJsonReadRepositories(
+      { now: () => new Date('2026-10-24T00:00:00Z'), id: () => 'mixed-rating-test' },
+      data,
+    );
+    renderProduct('/product/panels-550-1', repositories);
+    await screen.findByRole('heading', { name: '550W Mono solar panel', level: 1 });
+    expect(screen.getByText('(3 reviews)').closest('p')).toHaveTextContent('3.7 (3 reviews)');
+    for (const index of [1, 2, 3])
+      expect(screen.getByText(`Mixed sample review ${index}`)).toBeVisible();
+    const summary = await repositories.catalogue.getProductById(original.productId);
+    expect(summary).toMatchObject({ reviewCount: 3, rating: 11 / 3 });
   });
 
   it('makes unavailable inventory explicit and disables quantity changes', async () => {

@@ -254,7 +254,12 @@ p {
   min-height: 44px;
 }
 .page-main {
+  display: flow-root;
   min-height: 58vh;
+}
+/* Reserve a content viewport during a top-level page read. Nested loaders stay compact. */
+.page-main > .loading-state {
+  min-height: 100svh;
 }
 .container {
   width: min(1240px, calc(100% - 3rem));

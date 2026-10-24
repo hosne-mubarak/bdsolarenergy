@@ -1,12 +1,12 @@
 # Implementation progress
 
-Branch: `feature/bdsolarenergy-react-ecommerce`. The user requested publication of the current TASK-001–036 checkpoint on 24 October 2026.
+Branch: `feature/bdsolarenergy-react-ecommerce`. TASK-001–036 were committed and pushed as `5230b6e` on 24 October 2026 at the user’s request. The completion checkpoint includes TASK-037–040 and final verification.
 
 Source of truth: [approved plan](DEVELOPMENT_PLAN.md). Status reflects verified work only.
 
 ## Current checkpoint
 
-36/40 tasks verified Completed. Next: TASK-037. See individual entries for actual validation and limitations. This publication checkpoint covers TASK-001–036. TASK-037–040 remain to be completed; no deployment.
+40/40 tasks verified Completed. The completion checkpoint is ready for review on `feature/bdsolarenergy-react-ecommerce`. See individual entries and `docs/final-acceptance.md` for actual evidence and release limits. No deployment.
 
 ## TASK-001 — Record architecture and project conventions
 
@@ -407,43 +407,47 @@ Source of truth: [approved plan](DEVELOPMENT_PLAN.md). Status reflects verified 
 
 ## TASK-037 — Consolidate repository/domain/interaction suites
 
-- Status: Pending
+- Status: Completed
 - Dependencies: 024,028,031,032,035
 
-- Files changed: none.
-- Tests/validation: not run; implementation has not begun.
-- Outstanding issues: prerequisite completion required.
-- Next recommended task: implement when prerequisites are Completed; follow the plan matrix.
+- Files: architectural ESLint plugin/boundary tests, integration runner/TypeScript includes, composed purchase lifecycle, mixed-review interaction and docs/testing/test-matrix.md.
+- Result: UI fixture/transport/storage boundaries enforced; deterministic integration verifies merge, retry-safe purchase, reload, expiry and account isolation. All required business risks mapped to actual tests.
+- Validation: formatting/lint/strict types passed; full suite 460 tests across 58 files passed with no skipped/expected failures; production build passed.
+- Issues: remote CI status could not be read (GitHub API Forbidden); local checks recorded separately. Entry bundle review remains TASK-039.
+- Next: TASK-038.
 
 ## TASK-038 — Automate end-to-end purchase and account journeys
 
-- Status: Pending
+- Status: Completed
 - Dependencies: 036,037
 
-- Files changed: none.
-- Tests/validation: not run; implementation has not begun.
-- Outstanding issues: prerequisite completion required.
-- Next recommended task: implement when prerequisites are Completed; follow the plan matrix.
+- Files: purchase/account/checkout-recovery browser suites, exact quantity selectors and URL-readiness assertions, optional Firefox/WebKit configuration, docs/testing/browser-journeys.md.
+- Result: complete shopping, account, persistence, expiry, ownership, retry, stale-review and stock-conflict journeys execute with fresh browser contexts.
+- Validation: full centralized Playwright run passed 38/38 desktop/mobile Chromium cases in 2.0 minutes, zero retries/skips/expected failures; format/lint/types passed. Initial artifact contention and checkbox readiness failures investigated and fixed before the successful rerun.
+- Issues: Firefox/WebKit each blocked at official browser download by HTTP 403 Domain forbidden; no execution/pass claimed. Config and exact rerun commands documented as a pre-release gate.
+- Next: TASK-039.
 
 ## TASK-039 — Verify production build and performance handoff
 
-- Status: Pending
+- Status: Completed
 - Dependencies: 038
 
-- Files changed: none.
-- Tests/validation: not run; implementation has not begun.
-- Outstanding issues: prerequisite completion required.
-- Next recommended task: implement when prerequisites are Completed; follow the plan matrix.
+- Files: Vite vendor splitting/manifest, stable loading geometry CSS, README/.env.example, hosting guidance and production/performance reports.
+- Result: reproducible static demo build, lazy private screens, no large-chunk warning, corrected initial layout shift and documented SPA hosting requirements.
+- Validation: isolated npm ci installed 265 packages; format/lint/types, 461 tests/58 files and build passed. Final source/configuration matched isolated copy. Built-preview product/account/checkout/order/content/deep-link smoke passed with zero page errors. Post-fix accessibility browser 6/6 passed. Actual mobile Lighthouse home/product each94, CLS0.000; initial graph about165.5kB gzip, maxchunk313.94kB; no private-key/token patterns found.
+- Issues: Vite preview returns HTML200 for a deliberately missing asset; production-host asset404 exclusions are documented and require real-host validation. Firefox/WebKit download gate remains. No deployment.
+- Next: TASK-040.
 
 ## TASK-040 — Review DRF migration readiness and finalize docs
 
-- Status: Pending
+- Status: Completed
 - Dependencies: 039,006,037
 
-- Files changed: none.
-- Tests/validation: not run; implementation has not begun.
-- Outstanding issues: prerequisite completion required.
-- Next recommended task: implement when prerequisites are Completed; follow the plan matrix.
+- Files: API repository/migration handoff, optional provider service injection, typed replacement-adapter integration, persistence inventory, final acceptance checklist and final progress evidence.
+- Result: actual feature pages accept a typed replacement order adapter; proposed DRF DTO/endpoints/auth/CSRF/CORS/pagination/errors/cancellation/idempotency requirements and live-contract evolution are documented. All 40 planned tasks are accounted for.
+- Validation: 4 replacement-adapter integration tests passed; final isolated checks passed formatting/lint/strict types, 465 tests across 59 files and production build. Final built-preview purchase/deep-link/session/order smoke passed with zero page errors. All local documentation links and dependency/status checks passed; UI boundary lint/29 cases enforce no raw fixtures/storage/transport access.
+- Issues: no frontend test/build failure. Firefox/WebKit downloads blocked (403), manual assistive-technology/device review and actual-host fallback validation remain release gates. No real DRF/backend/live-commerce compatibility is claimed.
+- Next: review the completion checkpoint and address the documented backend/release gates.
 
 ## Checkpoint evidence — TASK-001 and TASK-002
 

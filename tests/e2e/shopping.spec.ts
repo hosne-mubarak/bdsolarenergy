@@ -14,7 +14,9 @@ test('cart and wishlist survive reload with current prices and coupon validation
   await page.getByRole('link', { name: 'Shopping cart (2 items)' }).click();
   await expect(page.getByRole('heading', { level: 1, name: 'Shopping cart' })).toBeVisible();
   await page.reload();
-  await expect(page.getByLabel('Quantity for 550W Mono solar panel')).toHaveValue('2');
+  await expect(page.getByLabel('Quantity for 550W Mono solar panel', { exact: true })).toHaveValue(
+    '2',
+  );
   await page.getByLabel('Coupon code').fill('SOLAR10');
   await page.getByRole('button', { name: 'Apply coupon' }).click();
   await expect(page.getByText('Coupon discount', { exact: true })).toBeVisible();

@@ -17,7 +17,9 @@ test('protected return path, guest merge and logout isolate another account', as
   await expect(page).toHaveURL(/\/account\/wishlist\?source=guard/);
   await expect(page.getByRole('heading', { name: 'Your wishlist', exact: true })).toBeVisible();
   await page.goto('/cart');
-  await expect(page.getByLabel('Quantity for 550W Mono solar panel')).toHaveValue('2');
+  await expect(page.getByLabel('Quantity for 550W Mono solar panel', { exact: true })).toHaveValue(
+    '2',
+  );
   await page.goto('/logout');
   await page.getByRole('button', { name: 'Sign out', exact: true }).click();
   await expect(page).toHaveURL(/\/$/);
