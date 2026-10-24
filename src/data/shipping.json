@@ -1,0 +1,32 @@
+[
+  {
+    "id": "shipping-dhaka",
+    "label": "Dhaka standard delivery",
+    "districts": ["Dhaka"],
+    "fee": 8000,
+    "freeAbove": 2000000,
+    "estimatedDays": {
+      "min": 2,
+      "max": 4
+    }
+  },
+  {
+    "id": "shipping-national",
+    "label": "Outside Dhaka delivery",
+    "districts": [
+      "Chattogram",
+      "Sylhet",
+      "Rajshahi",
+      "Khulna",
+      "Barishal",
+      "Rangpur",
+      "Mymensingh"
+    ],
+    "fee": 15000,
+    "freeAbove": 4000000,
+    "estimatedDays": {
+      "min": 4,
+      "max": 7
+    }
+  }
+]

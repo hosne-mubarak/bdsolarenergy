@@ -1,0 +1,2122 @@
+[
+  {
+    "id": "product-panels-1",
+    "slug": "panels-550-1",
+    "categoryId": "cat-panels",
+    "brandId": "brand-1",
+    "name": "550W Mono solar panel",
+    "summary": "Reliable solar panels for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-panels"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "550 W"
+      },
+      {
+        "label": "Application",
+        "value": "Solar panels"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-panels-1-v1",
+        "productId": "product-panels-1",
+        "sku": "BD-PANELS-1-1",
+        "attributes": {
+          "Capacity": "550 W"
+        },
+        "price": 1850000,
+        "compareAtPrice": 2081250,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 1000
+      },
+      {
+        "id": "product-panels-1-v2",
+        "productId": "product-panels-1",
+        "sku": "BD-PANELS-1-2",
+        "attributes": {
+          "Capacity": "560 W"
+        },
+        "price": 2000000,
+        "compareAtPrice": 2250000,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 1000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 100
+  },
+  {
+    "id": "product-panels-2",
+    "slug": "panels-575-2",
+    "categoryId": "cat-panels",
+    "brandId": "brand-2",
+    "name": "575W Mono solar panel",
+    "summary": "Reliable solar panels for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-panels"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "575 W"
+      },
+      {
+        "label": "Application",
+        "value": "Solar panels"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-panels-2-v1",
+        "productId": "product-panels-2",
+        "sku": "BD-PANELS-2-1",
+        "attributes": {
+          "Capacity": "575 W"
+        },
+        "price": 1998000,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 1000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 93
+  },
+  {
+    "id": "product-panels-3",
+    "slug": "panels-600-3",
+    "categoryId": "cat-panels",
+    "brandId": "brand-3",
+    "name": "600W Mono solar panel",
+    "summary": "Reliable solar panels for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-panels"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "600 W"
+      },
+      {
+        "label": "Application",
+        "value": "Solar panels"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-panels-3-v1",
+        "productId": "product-panels-3",
+        "sku": "BD-PANELS-3-1",
+        "attributes": {
+          "Capacity": "600 W"
+        },
+        "price": 2146000,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 1000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 86
+  },
+  {
+    "id": "product-panels-4",
+    "slug": "panels-625-4",
+    "categoryId": "cat-panels",
+    "brandId": "brand-4",
+    "name": "625W Mono solar panel",
+    "summary": "Reliable solar panels for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-panels"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "625 W"
+      },
+      {
+        "label": "Application",
+        "value": "Solar panels"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-panels-4-v1",
+        "productId": "product-panels-4",
+        "sku": "BD-PANELS-4-1",
+        "attributes": {
+          "Capacity": "625 W"
+        },
+        "price": 2294000,
+        "compareAtPrice": 2580750,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 1000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 79
+  },
+  {
+    "id": "product-panels-5",
+    "slug": "panels-650-5",
+    "categoryId": "cat-panels",
+    "brandId": "brand-1",
+    "name": "650W Mono solar panel",
+    "summary": "Reliable solar panels for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-panels"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "650 W"
+      },
+      {
+        "label": "Application",
+        "value": "Solar panels"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-panels-5-v1",
+        "productId": "product-panels-5",
+        "sku": "BD-PANELS-5-1",
+        "attributes": {
+          "Capacity": "650 W"
+        },
+        "price": 2442000,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 1000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 72
+  },
+  {
+    "id": "product-panels-6",
+    "slug": "panels-675-6",
+    "categoryId": "cat-panels",
+    "brandId": "brand-2",
+    "name": "675W Mono solar panel",
+    "summary": "Reliable solar panels for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-panels"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "675 W"
+      },
+      {
+        "label": "Application",
+        "value": "Solar panels"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-panels-6-v1",
+        "productId": "product-panels-6",
+        "sku": "BD-PANELS-6-1",
+        "attributes": {
+          "Capacity": "675 W"
+        },
+        "price": 2590000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 1000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 65
+  },
+  {
+    "id": "product-inverters-1",
+    "slug": "inverters-5-1",
+    "categoryId": "cat-inverters",
+    "brandId": "brand-1",
+    "name": "5kW Hybrid inverter",
+    "summary": "Reliable solar inverters for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-inverters"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "5 kW"
+      },
+      {
+        "label": "Application",
+        "value": "Solar inverters"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-inverters-1-v1",
+        "productId": "product-inverters-1",
+        "sku": "BD-INVERTERS-1-1",
+        "attributes": {
+          "Capacity": "5 kW"
+        },
+        "price": 6200000,
+        "compareAtPrice": 6975000,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 1500
+      },
+      {
+        "id": "product-inverters-1-v2",
+        "productId": "product-inverters-1",
+        "sku": "BD-INVERTERS-1-2",
+        "attributes": {
+          "Capacity": "15 kW"
+        },
+        "price": 6350000,
+        "compareAtPrice": 7143750,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 1500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 101
+  },
+  {
+    "id": "product-inverters-2",
+    "slug": "inverters-6-2",
+    "categoryId": "cat-inverters",
+    "brandId": "brand-2",
+    "name": "6kW Hybrid inverter",
+    "summary": "Reliable solar inverters for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-inverters"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "6 kW"
+      },
+      {
+        "label": "Application",
+        "value": "Solar inverters"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-inverters-2-v1",
+        "productId": "product-inverters-2",
+        "sku": "BD-INVERTERS-2-1",
+        "attributes": {
+          "Capacity": "6 kW"
+        },
+        "price": 6696000,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 1500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 94
+  },
+  {
+    "id": "product-inverters-3",
+    "slug": "inverters-7-3",
+    "categoryId": "cat-inverters",
+    "brandId": "brand-3",
+    "name": "7kW Hybrid inverter",
+    "summary": "Reliable solar inverters for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-inverters"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "7 kW"
+      },
+      {
+        "label": "Application",
+        "value": "Solar inverters"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-inverters-3-v1",
+        "productId": "product-inverters-3",
+        "sku": "BD-INVERTERS-3-1",
+        "attributes": {
+          "Capacity": "7 kW"
+        },
+        "price": 7192000,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 1500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 87
+  },
+  {
+    "id": "product-inverters-4",
+    "slug": "inverters-8-4",
+    "categoryId": "cat-inverters",
+    "brandId": "brand-4",
+    "name": "8kW Hybrid inverter",
+    "summary": "Reliable solar inverters for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-inverters"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "8 kW"
+      },
+      {
+        "label": "Application",
+        "value": "Solar inverters"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-inverters-4-v1",
+        "productId": "product-inverters-4",
+        "sku": "BD-INVERTERS-4-1",
+        "attributes": {
+          "Capacity": "8 kW"
+        },
+        "price": 7688000,
+        "compareAtPrice": 8649000,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 1500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 80
+  },
+  {
+    "id": "product-inverters-5",
+    "slug": "inverters-9-5",
+    "categoryId": "cat-inverters",
+    "brandId": "brand-1",
+    "name": "9kW Hybrid inverter",
+    "summary": "Reliable solar inverters for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-inverters"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "9 kW"
+      },
+      {
+        "label": "Application",
+        "value": "Solar inverters"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-inverters-5-v1",
+        "productId": "product-inverters-5",
+        "sku": "BD-INVERTERS-5-1",
+        "attributes": {
+          "Capacity": "9 kW"
+        },
+        "price": 8184000,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 1500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 73
+  },
+  {
+    "id": "product-inverters-6",
+    "slug": "inverters-10-6",
+    "categoryId": "cat-inverters",
+    "brandId": "brand-2",
+    "name": "10kW Hybrid inverter",
+    "summary": "Reliable solar inverters for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-inverters"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "10 kW"
+      },
+      {
+        "label": "Application",
+        "value": "Solar inverters"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-inverters-6-v1",
+        "productId": "product-inverters-6",
+        "sku": "BD-INVERTERS-6-1",
+        "attributes": {
+          "Capacity": "10 kW"
+        },
+        "price": 8680000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 1500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 66
+  },
+  {
+    "id": "product-batteries-1",
+    "slug": "batteries-100-1",
+    "categoryId": "cat-batteries",
+    "brandId": "brand-1",
+    "name": "100Ah LiFePO4 battery",
+    "summary": "Reliable solar batteries for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-batteries"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "100 Ah"
+      },
+      {
+        "label": "Application",
+        "value": "Solar batteries"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-batteries-1-v1",
+        "productId": "product-batteries-1",
+        "sku": "BD-BATTERIES-1-1",
+        "attributes": {
+          "Capacity": "100 Ah"
+        },
+        "price": 4200000,
+        "compareAtPrice": 4725000,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 2000
+      },
+      {
+        "id": "product-batteries-1-v2",
+        "productId": "product-batteries-1",
+        "sku": "BD-BATTERIES-1-2",
+        "attributes": {
+          "Capacity": "110 Ah"
+        },
+        "price": 4350000,
+        "compareAtPrice": 4893750,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 2000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 102
+  },
+  {
+    "id": "product-batteries-2",
+    "slug": "batteries-101-2",
+    "categoryId": "cat-batteries",
+    "brandId": "brand-2",
+    "name": "101Ah LiFePO4 battery",
+    "summary": "Reliable solar batteries for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-batteries"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "101 Ah"
+      },
+      {
+        "label": "Application",
+        "value": "Solar batteries"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-batteries-2-v1",
+        "productId": "product-batteries-2",
+        "sku": "BD-BATTERIES-2-1",
+        "attributes": {
+          "Capacity": "101 Ah"
+        },
+        "price": 4536000,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 2000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 95
+  },
+  {
+    "id": "product-batteries-3",
+    "slug": "batteries-102-3",
+    "categoryId": "cat-batteries",
+    "brandId": "brand-3",
+    "name": "102Ah LiFePO4 battery",
+    "summary": "Reliable solar batteries for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-batteries"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "102 Ah"
+      },
+      {
+        "label": "Application",
+        "value": "Solar batteries"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-batteries-3-v1",
+        "productId": "product-batteries-3",
+        "sku": "BD-BATTERIES-3-1",
+        "attributes": {
+          "Capacity": "102 Ah"
+        },
+        "price": 4872000,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 2000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 88
+  },
+  {
+    "id": "product-batteries-4",
+    "slug": "batteries-103-4",
+    "categoryId": "cat-batteries",
+    "brandId": "brand-4",
+    "name": "103Ah LiFePO4 battery",
+    "summary": "Reliable solar batteries for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-batteries"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "103 Ah"
+      },
+      {
+        "label": "Application",
+        "value": "Solar batteries"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-batteries-4-v1",
+        "productId": "product-batteries-4",
+        "sku": "BD-BATTERIES-4-1",
+        "attributes": {
+          "Capacity": "103 Ah"
+        },
+        "price": 5208000,
+        "compareAtPrice": 5859000,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 2000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 81
+  },
+  {
+    "id": "product-batteries-5",
+    "slug": "batteries-104-5",
+    "categoryId": "cat-batteries",
+    "brandId": "brand-1",
+    "name": "104Ah LiFePO4 battery",
+    "summary": "Reliable solar batteries for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-batteries"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "104 Ah"
+      },
+      {
+        "label": "Application",
+        "value": "Solar batteries"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-batteries-5-v1",
+        "productId": "product-batteries-5",
+        "sku": "BD-BATTERIES-5-1",
+        "attributes": {
+          "Capacity": "104 Ah"
+        },
+        "price": 5544000,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 2000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 74
+  },
+  {
+    "id": "product-batteries-6",
+    "slug": "batteries-105-6",
+    "categoryId": "cat-batteries",
+    "brandId": "brand-2",
+    "name": "105Ah LiFePO4 battery",
+    "summary": "Reliable solar batteries for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-batteries"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "105 Ah"
+      },
+      {
+        "label": "Application",
+        "value": "Solar batteries"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-batteries-6-v1",
+        "productId": "product-batteries-6",
+        "sku": "BD-BATTERIES-6-1",
+        "attributes": {
+          "Capacity": "105 Ah"
+        },
+        "price": 5880000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 2000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 67
+  },
+  {
+    "id": "product-controllers-1",
+    "slug": "controllers-40-1",
+    "categoryId": "cat-controllers",
+    "brandId": "brand-1",
+    "name": "40A MPPT charge controller",
+    "summary": "Reliable charge controllers for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-controllers"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "40 A"
+      },
+      {
+        "label": "Application",
+        "value": "Charge controllers"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-controllers-1-v1",
+        "productId": "product-controllers-1",
+        "sku": "BD-CONTROLLERS-1-1",
+        "attributes": {
+          "Capacity": "40 A"
+        },
+        "price": 680000,
+        "compareAtPrice": 765000,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 2500
+      },
+      {
+        "id": "product-controllers-1-v2",
+        "productId": "product-controllers-1",
+        "sku": "BD-CONTROLLERS-1-2",
+        "attributes": {
+          "Capacity": "50 A"
+        },
+        "price": 830000,
+        "compareAtPrice": 933750,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 2500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 103
+  },
+  {
+    "id": "product-controllers-2",
+    "slug": "controllers-41-2",
+    "categoryId": "cat-controllers",
+    "brandId": "brand-2",
+    "name": "41A MPPT charge controller",
+    "summary": "Reliable charge controllers for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-controllers"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "41 A"
+      },
+      {
+        "label": "Application",
+        "value": "Charge controllers"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-controllers-2-v1",
+        "productId": "product-controllers-2",
+        "sku": "BD-CONTROLLERS-2-1",
+        "attributes": {
+          "Capacity": "41 A"
+        },
+        "price": 734400,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 2500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 96
+  },
+  {
+    "id": "product-controllers-3",
+    "slug": "controllers-42-3",
+    "categoryId": "cat-controllers",
+    "brandId": "brand-3",
+    "name": "42A MPPT charge controller",
+    "summary": "Reliable charge controllers for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-controllers"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "42 A"
+      },
+      {
+        "label": "Application",
+        "value": "Charge controllers"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-controllers-3-v1",
+        "productId": "product-controllers-3",
+        "sku": "BD-CONTROLLERS-3-1",
+        "attributes": {
+          "Capacity": "42 A"
+        },
+        "price": 788800,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 2500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 89
+  },
+  {
+    "id": "product-controllers-4",
+    "slug": "controllers-43-4",
+    "categoryId": "cat-controllers",
+    "brandId": "brand-4",
+    "name": "43A MPPT charge controller",
+    "summary": "Reliable charge controllers for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-controllers"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "43 A"
+      },
+      {
+        "label": "Application",
+        "value": "Charge controllers"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-controllers-4-v1",
+        "productId": "product-controllers-4",
+        "sku": "BD-CONTROLLERS-4-1",
+        "attributes": {
+          "Capacity": "43 A"
+        },
+        "price": 843200,
+        "compareAtPrice": 948600,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 2500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 82
+  },
+  {
+    "id": "product-controllers-5",
+    "slug": "controllers-44-5",
+    "categoryId": "cat-controllers",
+    "brandId": "brand-1",
+    "name": "44A MPPT charge controller",
+    "summary": "Reliable charge controllers for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-controllers"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "44 A"
+      },
+      {
+        "label": "Application",
+        "value": "Charge controllers"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-controllers-5-v1",
+        "productId": "product-controllers-5",
+        "sku": "BD-CONTROLLERS-5-1",
+        "attributes": {
+          "Capacity": "44 A"
+        },
+        "price": 897600,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 2500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 75
+  },
+  {
+    "id": "product-controllers-6",
+    "slug": "controllers-45-6",
+    "categoryId": "cat-controllers",
+    "brandId": "brand-2",
+    "name": "45A MPPT charge controller",
+    "summary": "Reliable charge controllers for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-controllers"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "45 A"
+      },
+      {
+        "label": "Application",
+        "value": "Charge controllers"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-controllers-6-v1",
+        "productId": "product-controllers-6",
+        "sku": "BD-CONTROLLERS-6-1",
+        "attributes": {
+          "Capacity": "45 A"
+        },
+        "price": 952000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 2500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 68
+  },
+  {
+    "id": "product-accessories-1",
+    "slug": "accessories-4-1",
+    "categoryId": "cat-accessories",
+    "brandId": "brand-1",
+    "name": "4piece Solar mounting kit",
+    "summary": "Reliable solar accessories for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-accessories"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "4 piece"
+      },
+      {
+        "label": "Application",
+        "value": "Solar accessories"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-accessories-1-v1",
+        "productId": "product-accessories-1",
+        "sku": "BD-ACCESSORIES-1-1",
+        "attributes": {
+          "Capacity": "4 piece"
+        },
+        "price": 240000,
+        "compareAtPrice": 270000,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 3000
+      },
+      {
+        "id": "product-accessories-1-v2",
+        "productId": "product-accessories-1",
+        "sku": "BD-ACCESSORIES-1-2",
+        "attributes": {
+          "Capacity": "14 piece"
+        },
+        "price": 390000,
+        "compareAtPrice": 438750,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 3000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 104
+  },
+  {
+    "id": "product-accessories-2",
+    "slug": "accessories-5-2",
+    "categoryId": "cat-accessories",
+    "brandId": "brand-2",
+    "name": "5piece Solar mounting kit",
+    "summary": "Reliable solar accessories for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-accessories"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "5 piece"
+      },
+      {
+        "label": "Application",
+        "value": "Solar accessories"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-accessories-2-v1",
+        "productId": "product-accessories-2",
+        "sku": "BD-ACCESSORIES-2-1",
+        "attributes": {
+          "Capacity": "5 piece"
+        },
+        "price": 259200,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 3000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 97
+  },
+  {
+    "id": "product-accessories-3",
+    "slug": "accessories-6-3",
+    "categoryId": "cat-accessories",
+    "brandId": "brand-3",
+    "name": "6piece Solar mounting kit",
+    "summary": "Reliable solar accessories for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-accessories"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "6 piece"
+      },
+      {
+        "label": "Application",
+        "value": "Solar accessories"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-accessories-3-v1",
+        "productId": "product-accessories-3",
+        "sku": "BD-ACCESSORIES-3-1",
+        "attributes": {
+          "Capacity": "6 piece"
+        },
+        "price": 278400,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 3000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 90
+  },
+  {
+    "id": "product-accessories-4",
+    "slug": "accessories-7-4",
+    "categoryId": "cat-accessories",
+    "brandId": "brand-4",
+    "name": "7piece Solar mounting kit",
+    "summary": "Reliable solar accessories for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-accessories"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "7 piece"
+      },
+      {
+        "label": "Application",
+        "value": "Solar accessories"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-accessories-4-v1",
+        "productId": "product-accessories-4",
+        "sku": "BD-ACCESSORIES-4-1",
+        "attributes": {
+          "Capacity": "7 piece"
+        },
+        "price": 297600,
+        "compareAtPrice": 334800,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 3000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 83
+  },
+  {
+    "id": "product-accessories-5",
+    "slug": "accessories-8-5",
+    "categoryId": "cat-accessories",
+    "brandId": "brand-1",
+    "name": "8piece Solar mounting kit",
+    "summary": "Reliable solar accessories for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-accessories"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "8 piece"
+      },
+      {
+        "label": "Application",
+        "value": "Solar accessories"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-accessories-5-v1",
+        "productId": "product-accessories-5",
+        "sku": "BD-ACCESSORIES-5-1",
+        "attributes": {
+          "Capacity": "8 piece"
+        },
+        "price": 316800,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 3000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 76
+  },
+  {
+    "id": "product-accessories-6",
+    "slug": "accessories-9-6",
+    "categoryId": "cat-accessories",
+    "brandId": "brand-2",
+    "name": "9piece Solar mounting kit",
+    "summary": "Reliable solar accessories for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-accessories"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "9 piece"
+      },
+      {
+        "label": "Application",
+        "value": "Solar accessories"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-accessories-6-v1",
+        "productId": "product-accessories-6",
+        "sku": "BD-ACCESSORIES-6-1",
+        "attributes": {
+          "Capacity": "9 piece"
+        },
+        "price": 336000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 3000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 69
+  },
+  {
+    "id": "product-cables-1",
+    "slug": "cables-6-1",
+    "categoryId": "cat-cables",
+    "brandId": "brand-1",
+    "name": "6mm² Solar DC cable",
+    "summary": "Reliable cables & wires for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-cables"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "6 mm²"
+      },
+      {
+        "label": "Application",
+        "value": "Cables & wires"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-cables-1-v1",
+        "productId": "product-cables-1",
+        "sku": "BD-CABLES-1-1",
+        "attributes": {
+          "Capacity": "6 mm²"
+        },
+        "price": 180000,
+        "compareAtPrice": 202500,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 3500
+      },
+      {
+        "id": "product-cables-1-v2",
+        "productId": "product-cables-1",
+        "sku": "BD-CABLES-1-2",
+        "attributes": {
+          "Capacity": "16 mm²"
+        },
+        "price": 330000,
+        "compareAtPrice": 371250,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 3500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 105
+  },
+  {
+    "id": "product-cables-2",
+    "slug": "cables-7-2",
+    "categoryId": "cat-cables",
+    "brandId": "brand-2",
+    "name": "7mm² Solar DC cable",
+    "summary": "Reliable cables & wires for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-cables"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "7 mm²"
+      },
+      {
+        "label": "Application",
+        "value": "Cables & wires"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-cables-2-v1",
+        "productId": "product-cables-2",
+        "sku": "BD-CABLES-2-1",
+        "attributes": {
+          "Capacity": "7 mm²"
+        },
+        "price": 194400,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 3500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 98
+  },
+  {
+    "id": "product-cables-3",
+    "slug": "cables-8-3",
+    "categoryId": "cat-cables",
+    "brandId": "brand-3",
+    "name": "8mm² Solar DC cable",
+    "summary": "Reliable cables & wires for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-cables"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "8 mm²"
+      },
+      {
+        "label": "Application",
+        "value": "Cables & wires"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-cables-3-v1",
+        "productId": "product-cables-3",
+        "sku": "BD-CABLES-3-1",
+        "attributes": {
+          "Capacity": "8 mm²"
+        },
+        "price": 208800,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 3500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 91
+  },
+  {
+    "id": "product-cables-4",
+    "slug": "cables-9-4",
+    "categoryId": "cat-cables",
+    "brandId": "brand-4",
+    "name": "9mm² Solar DC cable",
+    "summary": "Reliable cables & wires for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-cables"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "9 mm²"
+      },
+      {
+        "label": "Application",
+        "value": "Cables & wires"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-cables-4-v1",
+        "productId": "product-cables-4",
+        "sku": "BD-CABLES-4-1",
+        "attributes": {
+          "Capacity": "9 mm²"
+        },
+        "price": 223200,
+        "compareAtPrice": 251100,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 3500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 84
+  },
+  {
+    "id": "product-cables-5",
+    "slug": "cables-10-5",
+    "categoryId": "cat-cables",
+    "brandId": "brand-1",
+    "name": "10mm² Solar DC cable",
+    "summary": "Reliable cables & wires for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-cables"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "10 mm²"
+      },
+      {
+        "label": "Application",
+        "value": "Cables & wires"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-cables-5-v1",
+        "productId": "product-cables-5",
+        "sku": "BD-CABLES-5-1",
+        "attributes": {
+          "Capacity": "10 mm²"
+        },
+        "price": 237600,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 3500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 77
+  },
+  {
+    "id": "product-cables-6",
+    "slug": "cables-11-6",
+    "categoryId": "cat-cables",
+    "brandId": "brand-2",
+    "name": "11mm² Solar DC cable",
+    "summary": "Reliable cables & wires for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-cables"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "11 mm²"
+      },
+      {
+        "label": "Application",
+        "value": "Cables & wires"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-cables-6-v1",
+        "productId": "product-cables-6",
+        "sku": "BD-CABLES-6-1",
+        "attributes": {
+          "Capacity": "11 mm²"
+        },
+        "price": 252000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 3500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 70
+  },
+  {
+    "id": "product-protection-1",
+    "slug": "protection-32-1",
+    "categoryId": "cat-protection",
+    "brandId": "brand-1",
+    "name": "32A DC circuit breaker",
+    "summary": "Reliable circuit protection for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-protection"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "32 A"
+      },
+      {
+        "label": "Application",
+        "value": "Circuit protection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-protection-1-v1",
+        "productId": "product-protection-1",
+        "sku": "BD-PROTECTION-1-1",
+        "attributes": {
+          "Capacity": "32 A"
+        },
+        "price": 95000,
+        "compareAtPrice": 106875,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 4000
+      },
+      {
+        "id": "product-protection-1-v2",
+        "productId": "product-protection-1",
+        "sku": "BD-PROTECTION-1-2",
+        "attributes": {
+          "Capacity": "42 A"
+        },
+        "price": 245000,
+        "compareAtPrice": 275625,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 4000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 106
+  },
+  {
+    "id": "product-protection-2",
+    "slug": "protection-33-2",
+    "categoryId": "cat-protection",
+    "brandId": "brand-2",
+    "name": "33A DC circuit breaker",
+    "summary": "Reliable circuit protection for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-protection"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "33 A"
+      },
+      {
+        "label": "Application",
+        "value": "Circuit protection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-protection-2-v1",
+        "productId": "product-protection-2",
+        "sku": "BD-PROTECTION-2-1",
+        "attributes": {
+          "Capacity": "33 A"
+        },
+        "price": 102600,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 4000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 99
+  },
+  {
+    "id": "product-protection-3",
+    "slug": "protection-34-3",
+    "categoryId": "cat-protection",
+    "brandId": "brand-3",
+    "name": "34A DC circuit breaker",
+    "summary": "Reliable circuit protection for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-protection"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "34 A"
+      },
+      {
+        "label": "Application",
+        "value": "Circuit protection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-protection-3-v1",
+        "productId": "product-protection-3",
+        "sku": "BD-PROTECTION-3-1",
+        "attributes": {
+          "Capacity": "34 A"
+        },
+        "price": 110200,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 4000
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 92
+  },
+  {
+    "id": "product-protection-4",
+    "slug": "protection-35-4",
+    "categoryId": "cat-protection",
+    "brandId": "brand-4",
+    "name": "35A DC circuit breaker",
+    "summary": "Reliable circuit protection for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-protection"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "35 A"
+      },
+      {
+        "label": "Application",
+        "value": "Circuit protection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-protection-4-v1",
+        "productId": "product-protection-4",
+        "sku": "BD-PROTECTION-4-1",
+        "attributes": {
+          "Capacity": "35 A"
+        },
+        "price": 117800,
+        "compareAtPrice": 132525,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 4000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 85
+  },
+  {
+    "id": "product-protection-5",
+    "slug": "protection-36-5",
+    "categoryId": "cat-protection",
+    "brandId": "brand-1",
+    "name": "36A DC circuit breaker",
+    "summary": "Reliable circuit protection for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-protection"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "36 A"
+      },
+      {
+        "label": "Application",
+        "value": "Circuit protection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-protection-5-v1",
+        "productId": "product-protection-5",
+        "sku": "BD-PROTECTION-5-1",
+        "attributes": {
+          "Capacity": "36 A"
+        },
+        "price": 125400,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 4000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 78
+  },
+  {
+    "id": "product-protection-6",
+    "slug": "protection-37-6",
+    "categoryId": "cat-protection",
+    "brandId": "brand-2",
+    "name": "37A DC circuit breaker",
+    "summary": "Reliable circuit protection for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-protection"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "37 A"
+      },
+      {
+        "label": "Application",
+        "value": "Circuit protection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-protection-6-v1",
+        "productId": "product-protection-6",
+        "sku": "BD-PROTECTION-6-1",
+        "attributes": {
+          "Capacity": "37 A"
+        },
+        "price": 133000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 4000
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 71
+  },
+  {
+    "id": "product-switches-1",
+    "slug": "switches-2-1",
+    "categoryId": "cat-switches",
+    "brandId": "brand-1",
+    "name": "2gang Modular switch set",
+    "summary": "Reliable switches & sockets for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-switches"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "2 gang"
+      },
+      {
+        "label": "Application",
+        "value": "Switches & sockets"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-switches-1-v1",
+        "productId": "product-switches-1",
+        "sku": "BD-SWITCHES-1-1",
+        "attributes": {
+          "Capacity": "2 gang"
+        },
+        "price": 65000,
+        "compareAtPrice": 75000,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 4500
+      },
+      {
+        "id": "product-switches-1-v2",
+        "productId": "product-switches-1",
+        "sku": "BD-SWITCHES-1-2",
+        "attributes": {
+          "Capacity": "12 gang"
+        },
+        "price": 215000,
+        "compareAtPrice": 241875,
+        "stock": 12,
+        "maxPerOrder": 5,
+        "weightGrams": 4500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "popularity": 107
+  },
+  {
+    "id": "product-switches-2",
+    "slug": "switches-3-2",
+    "categoryId": "cat-switches",
+    "brandId": "brand-2",
+    "name": "3gang Modular switch set",
+    "summary": "Reliable switches & sockets for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-switches"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "3 gang"
+      },
+      {
+        "label": "Application",
+        "value": "Switches & sockets"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-switches-2-v1",
+        "productId": "product-switches-2",
+        "sku": "BD-SWITCHES-2-1",
+        "attributes": {
+          "Capacity": "3 gang"
+        },
+        "price": 70200,
+        "compareAtPrice": null,
+        "stock": 13,
+        "maxPerOrder": 5,
+        "weightGrams": 4500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-02-01T00:00:00Z",
+    "popularity": 100
+  },
+  {
+    "id": "product-switches-3",
+    "slug": "switches-4-3",
+    "categoryId": "cat-switches",
+    "brandId": "brand-3",
+    "name": "4gang Modular switch set",
+    "summary": "Reliable switches & sockets for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-switches"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "4 gang"
+      },
+      {
+        "label": "Application",
+        "value": "Switches & sockets"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-switches-3-v1",
+        "productId": "product-switches-3",
+        "sku": "BD-SWITCHES-3-1",
+        "attributes": {
+          "Capacity": "4 gang"
+        },
+        "price": 75400,
+        "compareAtPrice": null,
+        "stock": 14,
+        "maxPerOrder": 5,
+        "weightGrams": 4500
+      }
+    ],
+    "tags": ["recommended"],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "popularity": 93
+  },
+  {
+    "id": "product-switches-4",
+    "slug": "switches-5-4",
+    "categoryId": "cat-switches",
+    "brandId": "brand-4",
+    "name": "5gang Modular switch set",
+    "summary": "Reliable switches & sockets for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-switches"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "5 gang"
+      },
+      {
+        "label": "Application",
+        "value": "Switches & sockets"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-switches-4-v1",
+        "productId": "product-switches-4",
+        "sku": "BD-SWITCHES-4-1",
+        "attributes": {
+          "Capacity": "5 gang"
+        },
+        "price": 80600,
+        "compareAtPrice": 90675,
+        "stock": 15,
+        "maxPerOrder": 5,
+        "weightGrams": 4500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "popularity": 86
+  },
+  {
+    "id": "product-switches-5",
+    "slug": "switches-6-5",
+    "categoryId": "cat-switches",
+    "brandId": "brand-1",
+    "name": "6gang Modular switch set",
+    "summary": "Reliable switches & sockets for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-switches"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "6 gang"
+      },
+      {
+        "label": "Application",
+        "value": "Switches & sockets"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-switches-5-v1",
+        "productId": "product-switches-5",
+        "sku": "BD-SWITCHES-5-1",
+        "attributes": {
+          "Capacity": "6 gang"
+        },
+        "price": 85800,
+        "compareAtPrice": null,
+        "stock": 2,
+        "maxPerOrder": 5,
+        "weightGrams": 4500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-05-01T00:00:00Z",
+    "popularity": 79
+  },
+  {
+    "id": "product-switches-6",
+    "slug": "switches-7-6",
+    "categoryId": "cat-switches",
+    "brandId": "brand-2",
+    "name": "7gang Modular switch set",
+    "summary": "Reliable switches & sockets for your next solar or electrical project. Sample specifications.",
+    "description": "Built for a more efficient energy setup. This demonstration product uses illustrative pricing, inventory and specifications. Verify real suitability and warranty terms with a qualified installer before purchase.",
+    "imageIds": ["img-switches"],
+    "specifications": [
+      {
+        "label": "Rated capacity",
+        "value": "7 gang"
+      },
+      {
+        "label": "Application",
+        "value": "Switches & sockets"
+      },
+      {
+        "label": "Warranty",
+        "value": "Sample warranty — owner approval pending"
+      }
+    ],
+    "variants": [
+      {
+        "id": "product-switches-6-v1",
+        "productId": "product-switches-6",
+        "sku": "BD-SWITCHES-6-1",
+        "attributes": {
+          "Capacity": "7 gang"
+        },
+        "price": 91000,
+        "compareAtPrice": null,
+        "stock": 0,
+        "maxPerOrder": 5,
+        "weightGrams": 4500
+      }
+    ],
+    "tags": ["new"],
+    "createdAt": "2026-06-01T00:00:00Z",
+    "popularity": 72
+  }
+]

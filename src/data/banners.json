@@ -1,0 +1,22 @@
+[
+  {
+    "id": "banner-main",
+    "title": "Power a brighter tomorrow.",
+    "copy": "Explore solar panels, reliable storage and electrical essentials. Build a smarter energy setup, one choice at a time.",
+    "imageId": "img-panels",
+    "ctaLabel": "Explore solar solutions",
+    "ctaPath": "/category/solar",
+    "startsAt": null,
+    "endsAt": null
+  },
+  {
+    "id": "banner-project",
+    "title": "Every great project starts with the right essentials.",
+    "copy": "Browse the full collection and compare specifications to plan your next installation.",
+    "imageId": "img-inverters",
+    "ctaLabel": "Find your next product",
+    "ctaPath": "/products",
+    "startsAt": null,
+    "endsAt": null
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "nav-products",
+    "label": "Shop all",
+    "path": "/products",
+    "parentId": null,
+    "order": 0
+  },
+  {
+    "id": "nav-solar",
+    "label": "Solar solutions",
+    "path": "/category/solar",
+    "parentId": null,
+    "order": 1
+  },
+  {
+    "id": "nav-electrical",
+    "label": "Electrical essentials",
+    "path": "/category/electrical",
+    "parentId": null,
+    "order": 2
+  },
+  {
+    "id": "nav-offers",
+    "label": "Special offers",
+    "path": "/offers",
+    "parentId": null,
+    "order": 3
+  },
+  {
+    "id": "nav-about",
+    "label": "Our story",
+    "path": "/about",
+    "parentId": null,
+    "order": 4
+  },
+  {
+    "id": "nav-contact",
+    "label": "Get in touch",
+    "path": "/contact",
+    "parentId": null,
+    "order": 5
+  }
+]

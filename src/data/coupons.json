@@ -1,0 +1,57 @@
+[
+  {
+    "id": "coupon-solar10",
+    "code": "SOLAR10",
+    "type": "percentage",
+    "amount": 10,
+    "minimumSubtotal": 50000,
+    "maximumDiscount": 500000,
+    "startsAt": "2020-01-01T00:00:00Z",
+    "endsAt": "2099-12-31T23:59:59Z",
+    "eligibleCategoryIds": []
+  },
+  {
+    "id": "coupon-welcome500",
+    "code": "WELCOME500",
+    "type": "fixed",
+    "amount": 50000,
+    "minimumSubtotal": 50000,
+    "maximumDiscount": null,
+    "startsAt": "2020-01-01T00:00:00Z",
+    "endsAt": "2099-12-31T23:59:59Z",
+    "eligibleCategoryIds": []
+  },
+  {
+    "id": "coupon-freeship",
+    "code": "FREESHIP",
+    "type": "free_shipping",
+    "amount": 0,
+    "minimumSubtotal": 50000,
+    "maximumDiscount": null,
+    "startsAt": "2020-01-01T00:00:00Z",
+    "endsAt": "2099-12-31T23:59:59Z",
+    "eligibleCategoryIds": []
+  },
+  {
+    "id": "coupon-expired",
+    "code": "EXPIRED",
+    "type": "fixed",
+    "amount": 10000,
+    "minimumSubtotal": 50000,
+    "maximumDiscount": null,
+    "startsAt": "2020-01-01T00:00:00Z",
+    "endsAt": "2021-01-01T00:00:00Z",
+    "eligibleCategoryIds": []
+  },
+  {
+    "id": "coupon-panels5",
+    "code": "PANELS5",
+    "type": "percentage",
+    "amount": 5,
+    "minimumSubtotal": 50000,
+    "maximumDiscount": 500000,
+    "startsAt": "2020-01-01T00:00:00Z",
+    "endsAt": "2099-12-31T23:59:59Z",
+    "eligibleCategoryIds": ["cat-panels"]
+  }
+]

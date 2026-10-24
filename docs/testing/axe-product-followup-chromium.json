@@ -1,0 +1,11 @@
+[
+  {
+    "label": "product-ratings-followup",
+    "engine": "4.14.0",
+    "serious": 0,
+    "critical": 0,
+    "other": [],
+    "incomplete": ["color-contrast"],
+    "passedRules": 32
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "name": "bdsolarenergy",
+  "currency": "BDT",
+  "contact": {
+    "email": "hello@example.com",
+    "phone": "01700000000",
+    "address": "Dhaka, Bangladesh — sample store location"
+  },
+  "collections": {
+    "featured": [
+      "product-panels-1",
+      "product-inverters-1",
+      "product-batteries-1",
+      "product-controllers-1",
+      "product-accessories-1",
+      "product-cables-1",
+      "product-protection-1",
+      "product-switches-1"
+    ],
+    "bestSellers": [
+      "product-panels-2",
+      "product-inverters-2",
+      "product-batteries-2",
+      "product-controllers-2",
+      "product-accessories-2",
+      "product-cables-2",
+      "product-protection-2",
+      "product-switches-2"
+    ]
+  },
+  "minimumOrder": 50000,
+  "taxInclusive": true,
+  "demoNotice": "Demo storefront. Products, prices, reviews and policies are samples. Orders, authentication and payments are simulated; nothing is sent to a merchant."
+}

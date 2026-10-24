@@ -1,0 +1,58 @@
+[
+  {
+    "id": "account-nav-0",
+    "label": "Overview",
+    "path": "/account",
+    "parentId": null,
+    "order": 0
+  },
+  {
+    "id": "account-nav-1",
+    "label": "Profile",
+    "path": "/account/profile",
+    "parentId": null,
+    "order": 1
+  },
+  {
+    "id": "account-nav-2",
+    "label": "Addresses",
+    "path": "/account/addresses",
+    "parentId": null,
+    "order": 2
+  },
+  {
+    "id": "account-nav-3",
+    "label": "Orders",
+    "path": "/account/orders",
+    "parentId": null,
+    "order": 3
+  },
+  {
+    "id": "account-nav-4",
+    "label": "Wishlist",
+    "path": "/account/wishlist",
+    "parentId": null,
+    "order": 4
+  },
+  {
+    "id": "account-nav-5",
+    "label": "Settings",
+    "path": "/account/settings",
+    "parentId": null,
+    "order": 5
+  },
+  {
+    "id": "account-nav-6",
+    "label": "Change password",
+    "path": "/account/password",
+    "parentId": null,
+    "order": 6
+  },
+  {
+    "id": "account-nav-7",
+    "label": "Sign out",
+    "path": "/logout",
+    "parentId": null,
+    "order": 7
+  }
+]

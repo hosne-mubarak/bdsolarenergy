@@ -1,0 +1,66 @@
+[
+  {
+    "id": "img-panels",
+    "src": "/images/panels.svg",
+    "alt": "Solar panels product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  },
+  {
+    "id": "img-inverters",
+    "src": "/images/inverters.svg",
+    "alt": "Solar inverters product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  },
+  {
+    "id": "img-batteries",
+    "src": "/images/batteries.svg",
+    "alt": "Solar batteries product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  },
+  {
+    "id": "img-controllers",
+    "src": "/images/controllers.svg",
+    "alt": "Charge controllers product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  },
+  {
+    "id": "img-accessories",
+    "src": "/images/accessories.svg",
+    "alt": "Solar accessories product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  },
+  {
+    "id": "img-cables",
+    "src": "/images/cables.svg",
+    "alt": "Cables & wires product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  },
+  {
+    "id": "img-protection",
+    "src": "/images/protection.svg",
+    "alt": "Circuit protection product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  },
+  {
+    "id": "img-switches",
+    "src": "/images/switches.svg",
+    "alt": "Switches & sockets product illustration — sample, not a photograph",
+    "width": 640,
+    "height": 420,
+    "attribution": "Original bdsolarenergy demo vector illustration, created for this project; sample representation only."
+  }
+]

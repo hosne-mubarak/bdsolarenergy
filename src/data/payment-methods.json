@@ -1,0 +1,26 @@
+[
+  {
+    "id": "payment-cod",
+    "label": "Cash on delivery (demo)",
+    "description": "Simulation only. No payment is collected. Do not enter real payment details.",
+    "enabled": true,
+    "demoOnly": true,
+    "type": "cod"
+  },
+  {
+    "id": "payment-mobile",
+    "label": "Mobile financial service (demo)",
+    "description": "Simulation only. No payment is collected. Do not enter real payment details.",
+    "enabled": true,
+    "demoOnly": true,
+    "type": "mobile"
+  },
+  {
+    "id": "payment-card",
+    "label": "Card payment (demo)",
+    "description": "Simulation only. No payment is collected. Do not enter real payment details.",
+    "enabled": true,
+    "demoOnly": true,
+    "type": "card"
+  }
+]

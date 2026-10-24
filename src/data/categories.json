@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cat-solar",
+    "slug": "solar",
+    "name": "Solar solutions",
+    "parentId": null,
+    "imageId": "img-panels",
+    "sortOrder": 0
+  },
+  {
+    "id": "cat-electrical",
+    "slug": "electrical",
+    "name": "Electrical essentials",
+    "parentId": null,
+    "imageId": "img-cables",
+    "sortOrder": 1
+  },
+  {
+    "id": "cat-panels",
+    "slug": "panels",
+    "name": "Solar panels",
+    "parentId": "cat-solar",
+    "imageId": "img-panels",
+    "sortOrder": 2
+  },
+  {
+    "id": "cat-inverters",
+    "slug": "inverters",
+    "name": "Solar inverters",
+    "parentId": "cat-solar",
+    "imageId": "img-inverters",
+    "sortOrder": 3
+  },
+  {
+    "id": "cat-batteries",
+    "slug": "batteries",
+    "name": "Solar batteries",
+    "parentId": "cat-solar",
+    "imageId": "img-batteries",
+    "sortOrder": 4
+  },
+  {
+    "id": "cat-controllers",
+    "slug": "controllers",
+    "name": "Charge controllers",
+    "parentId": "cat-solar",
+    "imageId": "img-controllers",
+    "sortOrder": 5
+  },
+  {
+    "id": "cat-accessories",
+    "slug": "accessories",
+    "name": "Solar accessories",
+    "parentId": "cat-solar",
+    "imageId": "img-accessories",
+    "sortOrder": 6
+  },
+  {
+    "id": "cat-cables",
+    "slug": "cables",
+    "name": "Cables & wires",
+    "parentId": "cat-electrical",
+    "imageId": "img-cables",
+    "sortOrder": 7
+  },
+  {
+    "id": "cat-protection",
+    "slug": "protection",
+    "name": "Circuit protection",
+    "parentId": "cat-electrical",
+    "imageId": "img-protection",
+    "sortOrder": 8
+  },
+  {
+    "id": "cat-switches",
+    "slug": "switches",
+    "name": "Switches & sockets",
+    "parentId": "cat-electrical",
+    "imageId": "img-switches",
+    "sortOrder": 9
+  }
+]

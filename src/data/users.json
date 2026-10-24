@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user-demo",
+    "displayName": "Demo Customer",
+    "email": "demo@example.com",
+    "phone": "01700000000",
+    "demo": true,
+    "verified": false
+  },
+  {
+    "id": "user-second",
+    "displayName": "Another Customer",
+    "email": "another@example.com",
+    "phone": "01800000000",
+    "demo": true,
+    "verified": false
+  }
+]

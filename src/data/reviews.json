@@ -1,0 +1,218 @@
+[
+  {
+    "id": "review-product-panels-1",
+    "productId": "product-panels-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-panels-2",
+    "productId": "product-panels-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-panels-3",
+    "productId": "product-panels-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-inverters-1",
+    "productId": "product-inverters-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-inverters-2",
+    "productId": "product-inverters-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-inverters-3",
+    "productId": "product-inverters-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-batteries-1",
+    "productId": "product-batteries-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-batteries-2",
+    "productId": "product-batteries-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-batteries-3",
+    "productId": "product-batteries-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-controllers-1",
+    "productId": "product-controllers-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-controllers-2",
+    "productId": "product-controllers-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-controllers-3",
+    "productId": "product-controllers-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-accessories-1",
+    "productId": "product-accessories-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-accessories-2",
+    "productId": "product-accessories-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-accessories-3",
+    "productId": "product-accessories-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-cables-1",
+    "productId": "product-cables-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-cables-2",
+    "productId": "product-cables-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-cables-3",
+    "productId": "product-cables-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-protection-1",
+    "productId": "product-protection-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-protection-2",
+    "productId": "product-protection-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-protection-3",
+    "productId": "product-protection-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-switches-1",
+    "productId": "product-switches-1",
+    "displayName": "Farhan Ahmed",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-switches-2",
+    "productId": "product-switches-2",
+    "displayName": "Nusrat Jahan",
+    "rating": 4,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "review-product-switches-3",
+    "productId": "product-switches-3",
+    "displayName": "Rafiq Hasan",
+    "rating": 5,
+    "title": "Helpful for our project",
+    "body": "Illustrative customer feedback for the demo. This is not a verified review of an actual purchase.",
+    "createdAt": "2026-07-01T00:00:00Z"
+  }
+]

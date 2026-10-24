@@ -1,0 +1,22 @@
+[
+  {
+    "id": "brand-1",
+    "slug": "sunward",
+    "name": "Sunward Demo"
+  },
+  {
+    "id": "brand-2",
+    "slug": "voltwise",
+    "name": "Voltwise Demo"
+  },
+  {
+    "id": "brand-3",
+    "slug": "ecogrid",
+    "name": "EcoGrid Demo"
+  },
+  {
+    "id": "brand-4",
+    "slug": "nexa",
+    "name": "Nexa Demo"
+  }
+]

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.cache/
+coverage/
+playwright-report/
+test-results/
+package-lock.json
+# Preserve the approved planning artifact without formatting unrelated history.
+docs/DEVELOPMENT_PLAN.md

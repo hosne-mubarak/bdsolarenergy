@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "about",
+    "title": "Energy for everyday possibilities",
+    "sections": [
+      {
+        "heading": "A solar and electrical shopping demonstration",
+        "body": "bdsolarenergy brings sample solar panels, inverters, batteries, controllers and electrical essentials into one catalogue for Bangladesh. Browse specifications, compare product options and practise a complete shopping journey with local demo orders."
+      },
+      {
+        "heading": "Choose with context",
+        "body": "A product rating or specification here is illustrative. For a real project, ask a qualified installer to check load, system compatibility, site conditions and safe installation. Final product availability, supplier terms and pricing need merchant confirmation."
+      },
+      {
+        "heading": "Explore at your own pace",
+        "body": "You can search and save products as a guest, then use a demo account to try delivery addresses, checkout and order history. Nothing is sent to a merchant and no payment is collected."
+      },
+      {
+        "heading": "Content awaiting owner review",
+        "body": "This is sample store content. Store identity, contact details, product claims and business policies require owner approval before publication as a live shop."
+      }
+    ],
+    "faqs": [],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  },
+  {
+    "slug": "contact",
+    "title": "Let’s talk about your next project",
+    "sections": [
+      {
+        "heading": "Let’s talk about your next project",
+        "body": "Contact details are illustrative. The inquiry form demonstrates validation and does not send a message."
+      },
+      {
+        "heading": "About this demonstration",
+        "body": "This content is illustrative and requires store owner approval before production use."
+      }
+    ],
+    "faqs": [],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  },
+  {
+    "slug": "faq",
+    "title": "Frequently asked questions",
+    "sections": [
+      {
+        "heading": "Help with this demo storefront",
+        "body": "These answers explain the sample shopping experience. Orders, authentication, delivery and payments are demonstrations stored in this browser."
+      },
+      {
+        "heading": "Sample guidance awaiting review",
+        "body": "The store owner must approve customer guidance and policies before real trading. The shipping, returns and warranty pages provide further draft guidance."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Will a demo order be delivered?",
+        "answer": "No. An order is recorded locally as a demonstration. No merchant or courier receives it and no goods are dispatched."
+      },
+      {
+        "question": "Can I make a real payment?",
+        "answer": "No payment is taken and no payment details are requested. Cash, mobile and card choices only demonstrate checkout."
+      },
+      {
+        "question": "Where is my demo data saved?",
+        "answer": "Shopping and account data stay in this browser. Remember me keeps sign-in between visits; otherwise sign-in lasts in the current tab. Clearing or resetting site data removes saved demo information."
+      },
+      {
+        "question": "Can I shop before signing in?",
+        "answer": "Yes. Guests can browse, search and save a cart or wishlist. Checkout requires a demo account. Your guest items are combined with that account’s saved items at sign-in, subject to current stock and order limits."
+      },
+      {
+        "question": "Which districts are supported?",
+        "answer": "The sample delivery methods cover Dhaka, Chattogram, Sylhet, Rajshahi, Khulna, Barishal, Rangpur and Mymensingh. Checkout checks the selected method against your district."
+      },
+      {
+        "question": "How do coupons and free delivery work?",
+        "answer": "Use one eligible coupon per order. Coupon minimum amounts use the product subtotal before discounts, while free-delivery thresholds use the subtotal after discounts. Checkout shows the final sample total."
+      },
+      {
+        "question": "Are product specifications and warranties final?",
+        "answer": "No. Product information and warranty statements are samples awaiting store owner approval. Confirm real suitability and supplier terms with the merchant and a qualified installer before purchase."
+      },
+      {
+        "question": "How do I start again with clean demo data?",
+        "answer": "Choose Reset demo data in account settings or the footer, then confirm the scope. This clears saved demo data for every demo customer in this browser and signs you out. Unrelated browser data is preserved."
+      }
+    ],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  },
+  {
+    "slug": "shipping-delivery",
+    "title": "Shipping & delivery",
+    "sections": [
+      {
+        "heading": "Draft delivery policy",
+        "body": "This sample policy describes the checkout demonstration. Delivery prices and estimates require owner approval before any real sale. A demo order does not book a courier or dispatch goods."
+      },
+      {
+        "heading": "Dhaka delivery example",
+        "body": "Dhaka standard delivery costs ৳80, with free delivery when the subtotal after discounts reaches ৳20,000. The illustrative delivery window is 2–4 days."
+      },
+      {
+        "heading": "Other supported districts",
+        "body": "The outside-Dhaka method supports Chattogram, Sylhet, Rajshahi, Khulna, Barishal, Rangpur and Mymensingh. It costs ৳150, with free delivery when the subtotal after discounts reaches ৳40,000. The illustrative delivery window is 4–7 days."
+      },
+      {
+        "heading": "Check eligibility at checkout",
+        "body": "Choose a delivery method that supports your district. Saving a valid address does not guarantee delivery coverage. Checkout shows the current fee, coupon effect and total before you place a demo order; the minimum product subtotal is ৳500."
+      },
+      {
+        "heading": "Review and tracking",
+        "body": "Checkout reviews last 10 minutes and prices, stock and delivery eligibility are checked again when you submit. Order tracking displays the local record only; it does not show a real courier location or live shipment updates."
+      }
+    ],
+    "faqs": [],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  },
+  {
+    "slug": "returns-refunds",
+    "title": "Returns & refunds",
+    "sections": [
+      {
+        "heading": "Draft returns and refunds policy",
+        "body": "This sample guidance requires store owner and legal review before real sales. Demo orders contain no actual purchase or payment, so this application cannot process a real return or refund."
+      },
+      {
+        "heading": "Before requesting a real return",
+        "body": "A future merchant process should ask for the order reference, product option, purchase evidence and a clear description of the issue. Keep packaging and accessories while the merchant reviews the request."
+      },
+      {
+        "heading": "Eligibility requires a published policy",
+        "body": "The merchant must publish return windows, condition requirements, exclusions, collection arrangements and any costs before accepting real purchases. Those terms have not been approved for this demonstration."
+      },
+      {
+        "heading": "Refund decisions and updates",
+        "body": "A live service would confirm the inspection outcome, refund amount, original payment method and expected timing. A local demo order or status screen is not evidence that money was refunded."
+      }
+    ],
+    "faqs": [],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  },
+  {
+    "slug": "warranty",
+    "title": "Warranty & support",
+    "sections": [
+      {
+        "heading": "Draft warranty and support policy",
+        "body": "Product specifications show sample warranty information awaiting owner approval. Final coverage depends on the actual product, supplier and written warranty. This page requires store owner and legal review before real sales."
+      },
+      {
+        "heading": "Check coverage before purchase",
+        "body": "For a real product, confirm the warranty duration, covered faults, exclusions, service location and claim evidence. Keep the invoice, product model and serial number with the supplier’s written terms."
+      },
+      {
+        "heading": "Installation and compatibility",
+        "body": "Ask a qualified installer to check system compatibility, load and installation conditions. The catalogue is a shopping demonstration and does not replace electrical design or installation advice."
+      },
+      {
+        "heading": "Support and claims",
+        "body": "A future merchant support team should explain assessment, repair or replacement options and applicable costs. Sample contact details and demo orders do not submit a warranty claim or establish supplier coverage."
+      }
+    ],
+    "faqs": [],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  },
+  {
+    "slug": "privacy",
+    "title": "Your privacy",
+    "sections": [
+      {
+        "heading": "Draft privacy notice",
+        "body": "This notice describes the frontend demonstration and requires owner and legal review before a live service. Use invented customer details and a password you do not use elsewhere. Demo accounts do not provide production account security."
+      },
+      {
+        "heading": "What stays in this browser",
+        "body": "The demo stores carts, wishlists, registered demo accounts, profile edits, addresses, preferences, order snapshots and simulated stock reservations for this site in your browser. Other people using the same browser may access that demo data."
+      },
+      {
+        "heading": "Sign-in and communication choices",
+        "body": "Remember me keeps the demo sign-in between visits; otherwise the sign-in lasts in the current tab. Local preferences do not subscribe you to email or SMS. Password recovery and verification screens are demonstrations and send no email."
+      },
+      {
+        "heading": "Clear saved demo information",
+        "body": "Use Reset demo data in account settings or the page footer to review and confirm cleanup. Reset removes this site’s saved demo data for all demo customers in this browser, including orders and registered accounts. It does not clear unrelated browser data."
+      },
+      {
+        "heading": "Before a live launch",
+        "body": "No analytics, payment collection or inquiry delivery service is configured in this demo. A live privacy notice must identify the operator, hosting and service providers, retention rules, contact process and applicable customer rights. Normal site requests may be visible to the hosting provider."
+      }
+    ],
+    "faqs": [],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  },
+  {
+    "slug": "terms",
+    "title": "Terms & conditions",
+    "sections": [
+      {
+        "heading": "Draft terms awaiting approval",
+        "body": "These sample terms require store owner and legal review before real trading. This application demonstrates shopping in Bangladesh; its products, prices, reviews, stock, contact details and policies are illustrative."
+      },
+      {
+        "heading": "Demo orders and payments",
+        "body": "Placing an order records a local simulation. It does not create a merchant purchase, collect payment or book delivery. The cash, mobile and card choices are demonstrations; enter no real payment credentials."
+      },
+      {
+        "heading": "Prices, discounts and availability",
+        "body": "Amounts are shown in Bangladeshi taka. Sample prices include tax and no additional tax is added. One coupon may apply to an order; eligibility, minimum amounts and expiry are checked at checkout. Delivery thresholds use the subtotal after discounts."
+      },
+      {
+        "heading": "Accounts and saved information",
+        "body": "Demo accounts and order history stay in this browser. Use invented details, avoid shared passwords and review the privacy notice. Data can be lost when browser storage is cleared, becomes unavailable or is reset."
+      },
+      {
+        "heading": "Requirements for a real store",
+        "body": "Before accepting actual purchases, the merchant must approve product claims, legal identity, customer policies, payment and delivery providers, complaint handling and final sale terms. Review the shipping, returns, warranty and privacy drafts alongside these terms."
+      }
+    ],
+    "faqs": [],
+    "updatedAt": "2026-10-24T00:00:00Z"
+  }
+]
